@@ -25,7 +25,6 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Extends the {@link org.thymeleaf.context.WebContext} to provide access to the
  * Struts action.
- * <p/>
  * For actions that implement the {@link com.opensymphony.xwork2.LocaleProvider}
  * interface (i.e., actions that extend ActionSupport), the action's locale will
  * be used in this context. Otherwise, the context will default to the
